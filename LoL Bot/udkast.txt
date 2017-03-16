@@ -1,0 +1,23 @@
+Udkast til simpel LoL bot party.
+
+5 bots der spiller sammen i et custom game mod 5 LoL AI's.
+
+Alle bots spiller en adc og går kun i mid lane.
+
+Ingame Playstyle:
+
+	
+	Bot vil altid a-move op af mid lane (klik på skærmen vha. camera lock)
+	Hvis enemy tower focuser bot - gå et stykke tilbage (ingame lyd)
+		(URL: http://files.spectralcoding.com/files/misc/lolwavs/LoL_SFX_hud/84_targetingwarning.wav)
+	Ved lavt hp - recall og køb items (screen scraping)
+	Ved afvigelse af position på minimap - gå tilbage til mid lane (screen scraping)
+
+Lobby:
+
+	bot(1): create game, invite bot(2-4), add 5 LoL AI's.
+	bot(2-4): Join game.
+	bot(1): start game.
+	bot(1-5): pick champions.
+	Ved lyd "Welcome to summoners rift" - kør ingame playstyle.
+	
